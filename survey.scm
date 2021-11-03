@@ -99,6 +99,7 @@
     fixnums  ; actually (arithmetic fixnums)
     flonums  ; actually (arithmetic flonums)
     hashtables
+    io       ; actually (io simple)
     lists
     mutable-pairs
     mutable-strings
@@ -110,7 +111,6 @@
     ;; (records inspection)
     ;; (records procedural)
     ;; (records syntactic)
-    simple   ; actually (io simple)
     sorting
     syntax-case
     unicode))
