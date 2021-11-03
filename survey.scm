@@ -137,6 +137,7 @@
 (define r7rs-large
   '(bitwise
     box
+    bytevector
     charset
     comparator
     division
