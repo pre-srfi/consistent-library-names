@@ -89,32 +89,40 @@
     (219 define)))
 
 (define r6rs
-  '(bitwise  ; actually (arithmetic bitwise)
-    bytevectors
+  '(bytevectors
     conditions
     control
     enums
     eval
     exceptions
     files
-    fixnums  ; actually (arithmetic fixnums)
-    flonums  ; actually (arithmetic flonums)
     hashtables
-    io       ; actually (io simple)
     lists
     mutable-pairs
     mutable-strings
-    ports    ; actually (io ports)
     programs
     r5rs
-    records
-    ;; actually three libraries:
+    sorting
+    syntax-case
+    unicode
+
+    ;; (arithmetic bitwise)
+    ;; (arithmetic fixnums)
+    ;; (arithmetic flonums)
+    arithmetic
+    bitwise
+    fixnums
+    flonums
+
+    ;; (io ports)
+    ;; (io simple)
+    io
+    ports
+
     ;; (records inspection)
     ;; (records procedural)
     ;; (records syntactic)
-    sorting
-    syntax-case
-    unicode))
+    records))
 
 (define r7rs-small
   '(base
