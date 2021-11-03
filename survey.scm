@@ -147,6 +147,7 @@
     generator
     hash-table
     ideque
+    ilist
     list
     list-queue
     lseq
