@@ -145,7 +145,6 @@
     fixnum
     flonum
     generator
-    generator
     hash-table
     ideque
     ilist
@@ -160,7 +159,6 @@
     sort
     stream
     text
-    vector
     vector))
 
 (define r7rs
