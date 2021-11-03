@@ -1,7 +1,7 @@
 (define srfis
   '((0 cond-expand)
     (1 list lists)
-    (2 and-let*)
+    (2 and-let)
     (4 vector vectors)
     (5 let)
     (6 string-port string-ports)
