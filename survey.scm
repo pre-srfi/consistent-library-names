@@ -106,11 +106,11 @@
     programs
     r5rs
     records
-    simple   ; actually (io simple)
     ;; actually three libraries:
     ;; (records inspection)
     ;; (records procedural)
     ;; (records syntactic)
+    simple   ; actually (io simple)
     sorting
     syntax-case
     unicode))
