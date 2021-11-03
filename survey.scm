@@ -59,6 +59,7 @@
     (111 box boxes)
     (113 set sets)
     (115 regexp regexps)
+    (116 ilist ilists)
     (117 list-queue list-queues)
     (121 generator generators)
     (124 ephemeron ephemerons)
